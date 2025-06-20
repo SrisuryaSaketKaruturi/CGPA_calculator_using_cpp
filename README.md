@@ -9,25 +9,25 @@ In educational institutions, tracking a student's performance over time is criti
 
 ## Important parts of the program
 
-1.Variables Used and  their functions
+1. Variables Used and their functions
 
-| Variable Name        | Type     | Description                                                   |
-|----------------------|----------|---------------------------------------------------------------|
-| `a`                  | `int`    | Max number of semesters (set to 10)                           |
-| `b`                  | `int`    | Max number of subjects per semester (set to 10)               |
-| `subject_name[a][b]` | `string` | Stores subject names for each semester and subject            |
-| `grade[a][b]`        | `int`    | Stores grade points per subject                               |
-| `credit_hours[a][b]` | `int`    | Stores credit hours per subject                               |
-| `sem_gpa[a]`         | `float`  | Stores GPA for each semester                                  |
-| `sub_num[a]`         | `int`    | Stores number of subjects in each semester                    |
-| `gradepoint`         | `int`    | Temporarily stores the calculated grade point for one subject |
-| `totalgradepoint`    | `int`    | Sum of all grade points across semesters (for CGPA)           |
-| `totalcredit`        | `int`    | Sum of all credit hours across semesters (for CGPA)           |
-| `student_name`       | `string` | Stores the student’s full name                                |
-| `semester_num`       | `int`    | Number of semesters entered by the user                       |
-| `semgradepoint`      | `int`    | Total grade points for one semester                           |
-| `semcredit`          | `int`    | Total credit hours for one semester                           |
-| `final_cgpa`         | `float`  | The final computed CGPA                                       |
+| Variable Name        | Type    | Description                                                  |
+|----------------------|---------|--------------------------------------------------------------|
+| a                    | int     | Max number of semesters (set to 10)                          |
+| b                    | int     | Max number of subjects per semester (set to 10)              |
+| subject_name[a][b]   | string  | Stores subject names for each semester and subject           |
+| grade[a][b]          | int     | Stores grade points per subject                              |
+| credit_hours[a][b]   | int     | Stores credit hours per subject                              |
+| sem_gpa[a]           | float   | Stores GPA for each semester                                 |
+| sub_num[a]           | int     | Stores number of subjects in each semester                   |
+| gradepoint           | int     | Temporarily stores the calculated grade point for one subject|
+| totalgradepoint      | int     | Sum of all grade points across semesters (for CGPA)          |
+| totalcredit          | int     | Sum of all credit hours across semesters (for CGPA)          |
+| student_name         | string  | Stores the student’s full name                               |
+| semester_num         | int     | Number of semesters entered by the user                      |
+| semgradepoint        | int     | Total grade points for one semester                          |
+| semcredit            | int     | Total credit hours for one semester                          |
+| final_cgpa           | float   | The final computed CGPA                                      |
 
 
 2.Input of Name and Number of semester.
