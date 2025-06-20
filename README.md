@@ -11,10 +11,8 @@ In educational institutions, tracking a student's performance over time is criti
 
 1.Variables Used and  their functions
 
-
- 
 | Variable Name        | Type     | Description                                                   |
-| -------------------- | -------- | ------------------------------------------------------------- |
+|----------------------|----------|---------------------------------------------------------------|
 | `a`                  | `int`    | Max number of semesters (set to 10)                           |
 | `b`                  | `int`    | Max number of subjects per semester (set to 10)               |
 | `subject_name[a][b]` | `string` | Stores subject names for each semester and subject            |
