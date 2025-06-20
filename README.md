@@ -10,6 +10,9 @@ In educational institutions, tracking a student's performance over time is criti
 ## Important parts of the program
 
 1.Variables Used and  their functions
+
+
+ 
 | Variable Name        | Type     | Description                                                   |
 | -------------------- | -------- | ------------------------------------------------------------- |
 | `a`                  | `int`    | Max number of semesters (set to 10)                           |
