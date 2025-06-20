@@ -9,7 +9,27 @@ In educational institutions, tracking a student's performance over time is criti
 
 ## Important parts of the program
 
-1..Input of Name and Number of semester.
+1.Variables Used and  their functions
+| Variable Name        | Type     | Description                                                   |
+| -------------------- | -------- | ------------------------------------------------------------- |
+| `a`                  | `int`    | Max number of semesters (set to 10)                           |
+| `b`                  | `int`    | Max number of subjects per semester (set to 10)               |
+| `subject_name[a][b]` | `string` | Stores subject names for each semester and subject            |
+| `grade[a][b]`        | `int`    | Stores grade points per subject                               |
+| `credit_hours[a][b]` | `int`    | Stores credit hours per subject                               |
+| `sem_gpa[a]`         | `float`  | Stores GPA for each semester                                  |
+| `sub_num[a]`         | `int`    | Stores number of subjects in each semester                    |
+| `gradepoint`         | `int`    | Temporarily stores the calculated grade point for one subject |
+| `totalgradepoint`    | `int`    | Sum of all grade points across semesters (for CGPA)           |
+| `totalcredit`        | `int`    | Sum of all credit hours across semesters (for CGPA)           |
+| `student_name`       | `string` | Stores the student’s full name                                |
+| `semester_num`       | `int`    | Number of semesters entered by the user                       |
+| `semgradepoint`      | `int`    | Total grade points for one semester                           |
+| `semcredit`          | `int`    | Total credit hours for one semester                           |
+| `final_cgpa`         | `float`  | The final computed CGPA                                       |
+
+
+2.Input of Name and Number of semester.
 
     string student_name;
     cout<<"enter student name:";
@@ -22,7 +42,7 @@ In educational institutions, tracking a student's performance over time is criti
     cin>>semester_num;
 
 
-2. Input and Storing number of subjects,subject name,grade and credit hours for each semster in a 2-D array.
+3. Input and Storing number of subjects,subject name,grade and credit hours for each semster in a 2-D array.Calculation of the Semester GPA
 
        for(int i=0;i<semester_num;i++)
        {
@@ -56,7 +76,7 @@ In educational institutions, tracking a student's performance over time is criti
 
        }
 
-4. Display of semester wise deatails,Semester GPA and CGPA by accesing a 2-D array.
+4..Calculation of final CGPA and display of semester wise deatails,Semester GPA and Final CGPA by accesing a 2-D array.
 
        cout<<endl<<endl;
        cout<<"----REPORT---"<<endl<<endl;
@@ -117,5 +137,9 @@ In educational institutions, tracking a student's performance over time is criti
     Semester GPA:9.57143
 
     CGPA:8.55556
+
+
+
+
 
 
